@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.contact-sidebar {
+    background: #53389F;
+    color: #CCCBCC;
+    height: 700px;
+    width: 350px;
+    font-size: small;
+    line-height: 1.5em;
+    padding: 25px;
+}
+
+.sub {
+    margin: 10px;
+    padding: 5px;
+    line-height: 2.5em;
+    text-align: left;
+}
+
+
+
+.contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    line-height: 2em;
+}
+
+
+.form-box {
+    height: 30px;
+    width: 410px;
+    box-shadow: -6px -7px 10px -5px rgba(0, 0, 0, 0.15) inset;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+
+.txt {
+    box-shadow: -6px -7px 10px -5px rgba(0, 0, 0, 0.15) inset;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+
+}
+
+::placeholder {
+    padding: 8px;
+    color: rgb(175, 175, 179);
+    opacity: 1;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.chkbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.checkboxx {
+    display: flex;
+    flex-direction: column;
+}
